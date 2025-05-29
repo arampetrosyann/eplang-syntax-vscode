@@ -1,0 +1,60 @@
+{
+  "name": "eplang-syntax",
+  "displayName": "EPLang Syntax",
+  "description": "Visual Studio Code extension providing syntax highlighting for EPLang source files",
+  "version": "0.1.0",
+  "publisher": "arampetrosyan",
+  "license": "MIT",
+  "icon": "images/epl_logo.png",
+  "repository": {
+    "url": "https://github.com/arampetrosyann/eplang-syntax-vscode",
+    "type": "git"
+  },
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "uclouvain",
+    "eplang",
+    "linfo2132"
+  ],
+  "scripts": {
+    "vs-package": "./node_modules/@vscode/vsce/vsce package",
+    "vs-publish": "./node_modules/@vscode/vsce/vsce publish"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "eplang",
+        "aliases": [
+          "EPLang",
+          "eplang"
+        ],
+        "extensions": [
+          ".eplang"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "eplang",
+        "scopeName": "source.eplang",
+        "path": "./syntaxes/eplang.tmLanguage.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "eplang-icon",
+        "label": "EPLang",
+        "path": "./icon-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.4.2"
+  }
+}

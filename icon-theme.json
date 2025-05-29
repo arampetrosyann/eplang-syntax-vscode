@@ -1,0 +1,22 @@
+{
+  "iconDefinitions": {
+    "eplang-icon": {
+      "iconPath": "./images/epl_logo.png"
+    }
+  },
+  "fileExtensions": {
+    "eplang": "eplang-icon"
+  },
+  "fileNames": {},
+  "languageIds": {},
+  "light": {
+    "fileExtensions": {
+      "eplang": "eplang-icon"
+    }
+  },
+  "dark": {
+    "fileExtensions": {
+      "eplang": "eplang-icon"
+    }
+  }
+}
