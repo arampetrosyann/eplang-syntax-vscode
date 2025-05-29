@@ -17,6 +17,10 @@ The extension is mainly for [UCLouvain](https://www.uclouvain.be/fr) students to
   - Alternatively, the extension can be installed via [marketplace](https://marketplace.visualstudio.com/items?itemName=arampetrosyan.eplang-syntax)
 - Reload VSCode
 
+## Troubleshooting
+
+[File a bug](https://github.com/arampetrosyann/eplang-syntax-vscode/issues/new) on the Github repository.
+
 ## References
 
 - [Language Grammar Rules](https://macromates.com/manual/en/language_grammars)
